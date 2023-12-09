@@ -1,0 +1,33 @@
+*{
+  background-color: silver;
+}
+
+.heading{
+  color: black;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: none;
+  background-color: #247ca5;
+}
+.options{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+.options h6{
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #5993ad;
+  font-weight: 700;
+  
+}
+
+.btn-clicked{
+  border: 2px solid green;
+  color: rgb(14, 82, 23);
+}
+
